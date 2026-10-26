@@ -3,6 +3,7 @@
 
 **Department:** Software Engineering  
 **Matric Number:** vug-25-15093
+**Full Name:** Okpede Jessica Iyitagye
 
 ### Part 1: Entities and Relationships
 
