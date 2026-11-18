@@ -1,0 +1,25 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f0\b\fs48 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Week 6 Lab Notes \'96 DML and Referential Integrity\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\fs36 \cf0 Referential Integrity Test\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 I attempted to delete the Library and Information Science department while a student was still assigned to it.\
+MySQL returned Error 1451 because the department was referenced by a student record through a foreign key.\
+This demonstrates referential integrity: MySQL prevents the deletion of a parent record while dependent child records still reference it.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 How I Fixed It\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 I reassigned the student to the Software Engineering department before deleting Library and Information Science.\
+The department was then deleted successfully. }
